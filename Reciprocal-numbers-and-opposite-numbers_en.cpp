@@ -21,7 +21,7 @@ int main()
     cout << "Enter second number:";
     cin >> num2;
 
-    //Calculationsssssssssssssss
+   //Calculationsssssssssssssss
    switch (awnser)
      {
          case 1:
