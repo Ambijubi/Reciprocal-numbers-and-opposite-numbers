@@ -1,11 +1,8 @@
 //Programm for checking for reciprocal numbers and opposite numbers
 #include <iostream>
 
-//I use "using" declarations so as not to write the std prefix in commands, cout, cin, endl, and string each time
-using std::cout;
-using std::cin;
-using std::endl;
-using std::string;
+//I use "using" declaration so as not to write the std prefix in commands, cout, cin, endl, and string each time
+using std::cout, std::cin, std::endl, std::string;
 
 int main()
 {
