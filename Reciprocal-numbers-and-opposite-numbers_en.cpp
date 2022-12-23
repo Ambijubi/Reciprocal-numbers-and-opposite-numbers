@@ -9,9 +9,9 @@ int main()
     int awnser;
     float num1, num2;
 
-    cout << "This is a program to test numbers to see if numbers are mutually negative or opposite." <<endl;
-    //We ask the user to check if the numbers are mutually negative or if the numbers are opposite
-    cout << "Check if the numbers are mutually negative or if the numbers are opposite?" <<endl;
+    cout << "This is a program to test numbers to see if numbers are opposite or opposite." <<endl;
+    //We ask the user to check if the numbers are opposite or if the numbers are opposite
+    cout << "Check if the numbers are opposite or if the numbers are opposite?" <<endl;
     cout << "1) Mutually negative\n2) Opposite\nAnswer: ";
     cin >> awnser;
     
@@ -27,11 +27,11 @@ int main()
          case 1:
              if (num1 * num2 == 1)
              {
-                 cout << "Numbers are mutually negative." <<endl;
+                 cout << "Numbers are opposite." <<endl;
              }
              else
              {
-                 cout << "Numbers are not mutually negative." <<endl;
+                 cout << "Numbers are not opposite." <<endl;
              }
              break;
     
