@@ -2,11 +2,8 @@
 
 #include <iostream>
 
-//Использую обьявления using, что-бы не писать каждый раз префикс std в командах, cout, cin, endl, и string
-using std::cout;
-using std::cin;
-using std::endl;
-using std::string;
+//Использую обьявление using, что-бы не писать каждый раз префикс std в командах, cout, cin, endl, и string
+using std::cout, std::cin, std::endl, std::string;
 
 int main()
 {
