@@ -36,7 +36,6 @@ int main()
              break;
     
          case 2:
-    
              if (num1 + num2 == 0)
              {
                  cout << "Numbers are opposite." <<endl;
