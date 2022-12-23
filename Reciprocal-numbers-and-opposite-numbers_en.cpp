@@ -16,9 +16,9 @@ int main()
     cin >> awnser;
     
     //We ask the user to enter numbers (if you enter a fraction, then only decimal)
-    cout << "Enter the first number:";
+    cout << "Enter the first number: ";
     cin >> num1;
-    cout << "Enter second number:";
+    cout << "Enter second number: ";
     cin >> num2;
 
    //Calculationsssssssssssssss
