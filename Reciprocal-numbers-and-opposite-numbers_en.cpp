@@ -9,10 +9,10 @@ int main()
     int awnser;
     float num1, num2;
 
-    cout << "This is a program to test numbers to see if numbers are opposite or opposite." <<endl;
-    //We ask the user to check if the numbers are opposite or if the numbers are opposite
-    cout << "Check if the numbers are opposite or if the numbers are opposite?" <<endl;
-    cout << "1) Mutually negative\n2) Opposite\nAnswer: ";
+    cout << "This is a program to test numbers to see if numbers are reciprocal or opposite." <<endl;
+    //We ask the user to check if the numbers are reciprocal or if the numbers are opposite
+    cout << "Check if the numbers are reciprocal or if the numbers are opposite?" <<endl;
+    cout << "1) Reciprocal \n2) Opposite\nAnswer: ";
     cin >> awnser;
     
     //We ask the user to enter numbers (if you enter a fraction, then only decimal)
@@ -27,11 +27,11 @@ int main()
          case 1:
              if (num1 * num2 == 1)
              {
-                 cout << "Numbers are opposite." <<endl;
+                 cout << "Numbers are reciprocal ." <<endl;
              }
              else
              {
-                 cout << "Numbers are not opposite." <<endl;
+                 cout << "Numbers are not reciprocal ." <<endl;
              }
              break;
     
